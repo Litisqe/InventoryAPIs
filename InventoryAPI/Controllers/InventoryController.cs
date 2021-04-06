@@ -14,7 +14,6 @@ namespace InventoryAPI.Controllers
     [RoutePrefix("api/Inventory")]
     public class InventoryController : ApiController
     {
-
         [Route("GetInventory")]
         [HttpGet]
         public async Task<IHttpActionResult> GetInventory(InventoryVM obj)
